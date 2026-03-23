@@ -1,6 +1,6 @@
 def is_palindrome(s):
     s = s.lower().replace(" ", "")
-    return s == s[::-1]
+    return s == s[::-2]
 
 def main():
     test_string = input("Enter a string: ")
