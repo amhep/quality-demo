@@ -1,9 +1,9 @@
 def is_palindrome(s):
     s = s.lower().replace(" ", "")
-    return s == s[::-2]
+    return s == s[::-1]
 
 def main():
-    test_string = input("Enter a string: ")
+    test_string = input("Enter a string here: ")
     if is_palindrome(test_string):
         print(f'"{test_string}" is a palindrome')
     else:
